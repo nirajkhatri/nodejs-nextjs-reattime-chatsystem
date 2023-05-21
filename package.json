@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-nextjs-realtime-chatsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon server.js --prefix server\" \"npm run dev --prefix client \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirajkhatri/nodejs-nextjs-realtime-chatsystem.git"
+  },
+  "author": "Niraj Khatri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirajkhatri/nodejs-nextjs-realtime-chatsystem/issues"
+  },
+  "homepage": "https://github.com/nirajkhatri/nodejs-nextjs-realtime-chatsystem#readme",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
