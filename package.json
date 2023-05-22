@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/nirajkhatri/nodejs-nextjs-realtime-chatsystem#readme",
   "dependencies": {
-    "concurrently": "^8.0.1"
+    "clsx": "^1.2.1",
+    "concurrently": "^8.0.1",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0"
   }
 }
